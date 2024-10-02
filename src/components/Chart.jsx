@@ -6,9 +6,6 @@ Chart.register(CategoryScale);
 
 
 const BudgetChart = ({totalIncome, totalExpense}) => {
-    console.log(totalIncome);
-    
-
     const data = {
         labels: [
           'Income',
